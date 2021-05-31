@@ -13,6 +13,7 @@ public class Cliente {
                 singleton.pagar(e, "4:00", 10000);
                 singleton.showInfo();
 
+
             }
         });
 
