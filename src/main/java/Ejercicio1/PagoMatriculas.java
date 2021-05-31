@@ -6,12 +6,12 @@ import java.util.Map;
 
 public class PagoMatriculas {
     private static PagoMatriculas instance = null;
-    private Map<String, String> matriculacion = new HashMap<String, String>();
+    private Map<String, String> matriculas = new HashMap<String, String>();
     private Map<String, Integer> monto = new HashMap<String, Integer>();
     private List<Estudiante> estudiantes = new LinkedList<>();
 
     private PagoMatriculas() {
-
+        System.out.println("INFO> Creando Singleton");
     }
 
     public static synchronized void makeInstance() {
@@ -25,24 +25,24 @@ public class PagoMatriculas {
         return instance;
     }
 
-    public synchronized void pagar(Estudiante e, String hora, int monto) {
-        if (!matriculacion.containsKey(e.nombre)) {
-            this.monto.put(e.nombre, monto);
-            estudiantes.add(e);
+    public synchronized void pagar(Estudiante estudiante, String hora, int monto) {
+        if (!matriculas.containsKey(estudiante.nombre)) {
+            this.monto.put(estudiante.nombre, monto);
+            estudiantes.add(estudiante);
         } else {
-            this.monto.put(e.nombre, monto+this.monto.get(e.nombre));
+            this.monto.put(estudiante.nombre, monto+this.monto.get(estudiante.nombre));
         }
-        matriculacion.put(e.nombre, "Hora: " + hora);
+        matriculas.put(estudiante.nombre, "Hora: " + hora);
 
     }
 
     public synchronized void showInfo() {
         System.out.println("*****************");
-        for (Estudiante e : estudiantes) {
-            System.out.println("Nombre " + e.nombre);
-            System.out.println("Ci: " + e.ci);
-            System.out.println(matriculacion.get(e.nombre));
-            System.out.println("Monto: "+monto.get(e.nombre));
+        for (Estudiante estudiante : estudiantes) {
+            System.out.println("Nombre " + estudiante.nombre);
+            System.out.println("Ci: " + estudiante.ci);
+            System.out.println(matriculas.get(estudiante.nombre));
+            System.out.println("Monto: "+monto.get(estudiante.nombre));
             System.out.println(" ");
         }
     }

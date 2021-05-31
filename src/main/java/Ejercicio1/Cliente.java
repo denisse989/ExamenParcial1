@@ -9,10 +9,10 @@ public class Cliente {
                 PagoMatriculas singleton = PagoMatriculas.getInstance();
                 Estudiante e = new Estudiante();
                 e.setCi(123);
-                e.setNombre("sdafe");
+                e.setNombre("Jose1");
                 singleton.pagar(e, "4:00", 10000);
                 singleton.showInfo();
-                System.out.println("*******");
+
             }
         });
 
@@ -21,11 +21,11 @@ public class Cliente {
             public void run() {
                 PagoMatriculas singleton = PagoMatriculas.getInstance();
                 Estudiante e = new Estudiante();
-                e.setCi(123);
-                e.setNombre("gsg");
-                singleton.pagar(e, "5:00", 1111);
+                e.setCi(456);
+                e.setNombre("Jose2");
+                singleton.pagar(e, "5:00", 10010);
                 singleton.showInfo();
-                System.out.println("*******");
+
 
             }
         });
@@ -34,11 +34,10 @@ public class Cliente {
             public void run() {
                 PagoMatriculas singleton = PagoMatriculas.getInstance();
                 Estudiante e = new Estudiante();
-                e.setCi(123);
-                e.setNombre("aaaa");
-                singleton.pagar(e, "4:56", 222);
+                e.setCi(789);
+                e.setNombre("Jose3");
+                singleton.pagar(e, "4:50", 2000);
                 singleton.showInfo();
-                System.out.println("*******");
 
             }
         });
@@ -47,11 +46,11 @@ public class Cliente {
             public void run() {
                 PagoMatriculas singleton = PagoMatriculas.getInstance();
                 Estudiante e = new Estudiante();
-                e.setCi(123);
-                e.setNombre("sdafe");
+                e.setCi(1011);
+                e.setNombre("Jose4");
                 singleton.pagar(e, "4:00", 10000);
                 singleton.showInfo();
-                System.out.println("*******");
+
 
             }
         });
