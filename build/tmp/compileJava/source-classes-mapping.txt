@@ -1,0 +1,86 @@
+Ejercicio5/Cliente.java
+ Ejercicio5.Cliente
+Ejercicio3/Cliente.java
+ Ejercicio3.Cliente
+Ejercicio4/Lomito.java
+ Ejercicio4.Lomito
+Ejercicio3/CreatorElementoCamiseta.java
+ Ejercicio3.CreatorElementoCamiseta
+Ejercicio4/Cliente.java
+ Ejercicio4.Cliente
+Ejercicio5/Terminal9.java
+ Ejercicio5.Terminal9
+Ejercicio2/Cliente.java
+ Ejercicio2.Cliente
+Ejercicio5/AbstractNumero.java
+ Ejercicio5.AbstractNumero
+Ejercicio5/Terminal7.java
+ Ejercicio5.Terminal7
+Ejercicio4/BuilderParrilla.java
+ Ejercicio4.BuilderParrilla
+Ejercicio5/Terminal4.java
+ Ejercicio5.Terminal4
+Ejercicio3/ElementoPelotaDeFutbol.java
+ Ejercicio3.ElementoPelotaDeFutbol
+Ejercicio5/Terminal10.java
+ Ejercicio5.Terminal10
+Ejercicio5/Terminal1.java
+ Ejercicio5.Terminal1
+Ejercicio3/ElementoTenis.java
+ Ejercicio3.ElementoTenis
+Ejercicio5/Terminal8.java
+ Ejercicio5.Terminal8
+Ejercicio2/Camara.java
+ Ejercicio2.Camara
+Ejercicio3/CreatorElemento.java
+ Ejercicio3.CreatorElemento
+Ejercicio4/Parrillas.java
+ Ejercicio4.Parrillas
+Ejercicio5/NonTerminal.java
+ Ejercicio5.NonTerminal
+Ejercicio5/Terminal2.java
+ Ejercicio5.Terminal2
+Ejercicio5/Terminal5.java
+ Ejercicio5.Terminal5
+Ejercicio3/CreatorElementoTenis.java
+ Ejercicio3.CreatorElementoTenis
+Ejercicio2/Celular.java
+ Ejercicio2.Celular
+Ejercicio3/CreatorElementoShort.java
+ Ejercicio3.CreatorElementoShort
+Ejercicio3/ElementoMedias.java
+ Ejercicio3.ElementoMedias
+Ejercicio4/Bife.java
+ Ejercicio4.Bife
+Ejercicio3/IElementos.java
+ Ejercicio3.IElementos
+Ejercicio3/ElementoShort.java
+ Ejercicio3.ElementoShort
+Ejercicio2/ICelular.java
+ Ejercicio2.ICelular
+Ejercicio3/CreatorElementoMedias.java
+ Ejercicio3.CreatorElementoMedias
+Ejercicio3/CreatorElementoPelotaDeFutbol.java
+ Ejercicio3.CreatorElementoPelotaDeFutbol
+Ejercicio3/ElementoCamiseta.java
+ Ejercicio3.ElementoCamiseta
+Ejercicio4/Tira.java
+ Ejercicio4.Tira
+Ejercicio4/Comensal.java
+ Ejercicio4.Comensal
+Ejercicio5/Terminal6.java
+ Ejercicio5.Terminal6
+Ejercicio5/ContextNumeroRomano.java
+ Ejercicio5.ContextNumeroRomano
+Ejercicio5/Terminal3.java
+ Ejercicio5.Terminal3
+Ejercicio1/Estudiante.java
+ Ejercicio1.Estudiante
+Ejercicio1/PagoMatriculas.java
+ Ejercicio1.PagoMatriculas
+Ejercicio1/Cliente.java
+ Ejercicio1.Cliente
+ Ejercicio1.Cliente$1
+ Ejercicio1.Cliente$2
+ Ejercicio1.Cliente$3
+ Ejercicio1.Cliente$4
